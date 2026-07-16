@@ -1,7 +1,6 @@
-export const dynamic = "force-dynamic";
+// Force production server fetch refresh check update
 "use client";
 import { useEffect, useState } from "react";
-
 export default function Home() {
   const [status, setStatus] = useState("Connecting...");
   const [project, setProject] = useState("");
