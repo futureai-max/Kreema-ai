@@ -7,7 +7,7 @@ app = FastAPI()
 # Enable CORS so your Vercel website can communicate with your Railway API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Isko exactly aisa hi rehne dein
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
