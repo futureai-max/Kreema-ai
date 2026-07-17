@@ -8,7 +8,7 @@ export default function Home() {
   const [launchMessage, setLaunchMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://railway.app";
+  const API_URL = "https://kreema-ai-production.up.railway.app";
 
   useEffect(() => {
     fetch(API_URL)
